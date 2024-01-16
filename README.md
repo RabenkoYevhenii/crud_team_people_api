@@ -10,12 +10,12 @@ venv\Scripts\activate (on Windows)
 source venv/bin/activate (on macOS)
 ```
 _Set up requirements_
-```
-pip install -r requirements.txt
-```
+
+`pip install -r requirements.txt`
+
 _Set up database_
 
-_Use following command to load data from database_ 
+Use following command to load data from database 
 
 `python manage.py loaddata data.json`
 
