@@ -3,7 +3,11 @@ from django.db import models
 
 class Team(models.Model):
     name = models.CharField(max_length=255)
-    members = models.ManyToManyField("People", related_name="teams", blank=True)
+    members = models.ManyToManyField(
+        "People",
+        related_name="teams",
+        blank=True
+    )
 
     class Meta:
         ordering = ["name"]

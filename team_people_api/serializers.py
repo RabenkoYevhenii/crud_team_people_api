@@ -47,5 +47,3 @@ class TeamDetailSerializer(TeamSerializer):
             "name",
             "members",
         )
-
-
