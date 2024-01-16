@@ -136,3 +136,26 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    "DEFAULT_THROTTLE_CLASSES": [
+        "rest_framework.throttling.AnonRateThrottle",
+        "rest_framework.throttling.UserRateThrottle",
+    ],
+    "DEFAULT_THROTTLE_RATES": {"anon": "10/minute", "user": "30/minute"},
+    "DEFAULT_AUTHENTICATION_CLASSES": (),
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Theatre service API",
+    "DESCRIPTION": "Order tickets for plays",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
+    "SWAGGER_UI_SETTINGS": {
+        "deepLinking": True,
+        "defaultModelRendering": "model",
+        "defaultModelExpandDepth": "2",
+        "defaultModelsExpandDepth": "2",
+    },
+}
