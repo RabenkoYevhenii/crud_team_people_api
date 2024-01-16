@@ -13,6 +13,16 @@ _Set up requirements_
 
 `pip install -r requirements.txt`
 
+_Make migrations_
+
+Use this commands to make migrations:
+
+`python manage.py makemigrations`
+
+And apply them:
+
+`python manage.py migrate`
+
 _Set up database_
 
 Use following command to load data from database 
