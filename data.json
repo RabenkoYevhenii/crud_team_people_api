@@ -1,0 +1,119 @@
+[
+  {
+    "model": "team_people_api.team",
+    "pk": 11,
+    "fields": {
+      "name": "Musicians",
+      "members": [
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  {
+    "model": "team_people_api.team",
+    "pk": 12,
+    "fields": {
+      "name": "Film Directors",
+      "members": [
+        22,
+        21,
+        23
+      ]
+    }
+  },
+  {
+    "model": "team_people_api.team",
+    "pk": 13,
+    "fields": {
+      "name": "Youtubers",
+      "members": [
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 15,
+    "fields": {
+      "first_name": "Mykola",
+      "last_name": "Zurianov",
+      "email": "mykolazurianov@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 16,
+    "fields": {
+      "first_name": "Yevhenii",
+      "last_name": "Yanovych",
+      "email": "yevheniiyanovych@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 17,
+    "fields": {
+      "first_name": "Yurii",
+      "last_name": "Yaniv",
+      "email": "slivkishow@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 18,
+    "fields": {
+      "first_name": "Andriy",
+      "last_name": "Kuzmenko",
+      "email": "scryabin@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 19,
+    "fields": {
+      "first_name": "Ivan",
+      "last_name": "Dorn",
+      "email": "ivandorn@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 20,
+    "fields": {
+      "first_name": "Klavdia",
+      "last_name": "Petrivna",
+      "email": "klavdiapetrivna@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 21,
+    "fields": {
+      "first_name": "Nariman",
+      "last_name": "Aliyev",
+      "email": "narimanaliyev@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 22,
+    "fields": {
+      "first_name": "Antonio",
+      "last_name": "Lukic",
+      "email": "antoniolukic@test.com"
+    }
+  },
+  {
+    "model": "team_people_api.people",
+    "pk": 23,
+    "fields": {
+      "first_name": "Oles",
+      "last_name": "Sanin",
+      "email": "olessanin@test.com"
+    }
+  }
+]
