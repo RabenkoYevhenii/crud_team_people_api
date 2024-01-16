@@ -21,7 +21,7 @@ class PeopleViewSet(viewsets.ModelViewSet):
     pagination_class = Pagination
 
 
-class TeamPeopleViewSet(viewsets.ModelViewSet):
+class TeamViewSet(viewsets.ModelViewSet):
     queryset = Team.objects.prefetch_related("members")
     serializer_class = TeamSerializer
     pagination_class = Pagination
