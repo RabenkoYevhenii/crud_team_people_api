@@ -40,15 +40,15 @@ class TeamViewSet(viewsets.ModelViewSet):
     def perform_create(self, serializer):
         form = TeamForm(self.request.data)
         if form.is_valid():
-            team = form.save()
-            serializer.save(members=form.cleaned_data['members'])
+            form.save()
+            serializer.save(members=form.cleaned_data["members"])
         else:
             return Response(form.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def perform_update(self, serializer):
         form = TeamForm(self.request.data, instance=self.get_object())
         if form.is_valid():
-            team = form.save()
-            serializer.save(members=form.cleaned_data['members'])
+            form.save()
+            serializer.save(members=form.cleaned_data["members"])
         else:
             return Response(form.errors, status=status.HTTP_400_BAD_REQUEST)
